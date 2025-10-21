@@ -43,6 +43,13 @@ html, body {
   padding-right: 100px;
 }
 
+.header::after {
+  content: "";
+  display: block;
+  clear: both;   /* ← .logo の float をここで打ち消す */
+}
+
+
 .gallery {
   height: 500px;
   width: 100%;
