@@ -219,9 +219,10 @@ body {
 }
 
 .qa-6 {
-    max-width: 500px;
+    max-width: 900px;
     margin-bottom: 5px;
     border-bottom: 2px solid #d6dde3;
+    text-align: center;
 }
 
 .qa-6 summary {
@@ -269,7 +270,7 @@ body {
     opacity: 0;
     margin: 0;
     padding: .3em 3em 1.5em;
-    color: #333;
+    color: white;
     transition: transform .5s, opacity .5s;
 }
 
