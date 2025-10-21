@@ -16,12 +16,13 @@ body {
   padding-bottom: 15px;
 }
 
-.header-list li {
+.header-list ul {
+  margin:0; 
+  padding: 0;          /* ← ここ重要（左の40px） */
   list-style: none;
-  display: inline-flex;
-  flex-wrap: wrap;
+  display: flex;       /* gapを効かせるため親をflexに */
   gap: 16px;
-  font-size: 25px;
+  align-items: center;
 }
 
 html, body {
