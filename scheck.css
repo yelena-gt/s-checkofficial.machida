@@ -23,6 +23,12 @@ body {
   font-size: 25px;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
 .concept-top {
   padding-top: 15px;
   color: white;
