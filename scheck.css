@@ -55,6 +55,7 @@ body {
 .gallery {
   height: 500px;
   width: 100%;
+  clear: both;
 }
 
 .slideshow-slide {
