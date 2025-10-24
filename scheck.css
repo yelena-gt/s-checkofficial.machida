@@ -294,7 +294,7 @@ ul {
   margin-left: 20px;
 }
 
-.arrow {
+.live {
   width: 25px;
   height: 1px;
   background: #707070;
@@ -303,7 +303,7 @@ ul {
   right: 0;
 }
 
-.arrow::after {
+.live::after {
   content: "";
   display: block;
   width: 6px;
@@ -330,7 +330,7 @@ ul {
 
 }
 @media screen and (max-width: 480px) {
-    .arrow {
+    .live {
         display: none;
     }
     .news_list_item a {
