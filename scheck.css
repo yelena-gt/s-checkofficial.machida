@@ -297,11 +297,13 @@ body {
 .messages {
   width: 1000px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .messages h3 {
   margin-top: 150px;
   text-align: center;
+  margin: 0 auto;
 }
 
 input, textarea {
@@ -312,6 +314,7 @@ input, textarea {
   font-size: 18px;
   border: 1px solid grey;
   margin: 0 auto;
+  text-align: center;
 }
 
 .concept h3, .info h3, .concept p, .info p {
