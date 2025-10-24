@@ -240,13 +240,13 @@ ul {
 
 .news {
   padding: 50px 0;
-  background: #FFF7EA;
+  background: black;
 }
 
 
 .news_content {
   width: 80%;
-  background-color: #fff;
+  background-color: black;
   margin: 0 auto;
   padding: 65px 0 100px;
 }
@@ -266,11 +266,11 @@ ul {
 
 .news_list_item {
   padding: 25px 0;
-  border-bottom: 1px solid #E6E6E6;
+  border-bottom: 1px solid white;
 }
 
 .news_list_item:first-child {
-  border-top: 1px solid #E6E6E6;
+  border-top: 1px solid white;
 }
 .news_list_item a {
  position: relative;
@@ -286,7 +286,7 @@ ul {
 }
 
 .news_item {
-  background: #F6C6A2;
+  background: black;
   border-radius: 14px;
   width: 6em;
 
@@ -297,7 +297,7 @@ ul {
 .live {
   width: 25px;
   height: 1px;
-  background: #707070;
+  background: black;
   position: absolute;
   top: 50%;
   right: 0;
@@ -308,7 +308,7 @@ ul {
   display: block;
   width: 6px;
   height: 1px;
-  background: #707070;
+  background: black;
   transform: rotate(45deg);
   position: absolute;
   right: 0px;
