@@ -196,7 +196,7 @@ body {
 }
 
 .con-info h1 {
-  margin-top: 110px;
+  margin-top: 80px;
   display: inline-block;
   position: relative;
   padding: 0 2.5em;
@@ -334,7 +334,7 @@ input, textarea {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 50px 10px 10px;
+    padding: 70px 10px 10px;
     background-color: #0b1014;
 }
 
