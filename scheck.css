@@ -258,7 +258,13 @@ ul {
   margin-bottom: 40px;
 }
 
+.news-list time {
+  color:white;
+}
 
+.news-list p {
+  color: white;
+}
 
 .news_list {
   margin: 0 5%;
