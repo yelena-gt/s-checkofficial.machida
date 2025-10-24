@@ -32,7 +32,6 @@ body {
   gap: 16px;
   align-items: center;
   font-size: 35px;
-  font-family: "Oswald", 'sans-serif';
 }
 
 
@@ -42,12 +41,16 @@ body {
   color: white;
   padding-left: 100px;
   padding-right: 100px;
+  font-family: "Poppins", 'sans-serif';
+  font-weight: 700;
 }
 
 .info-top {
   padding-top: 15px;
   color: white;
   padding-right: 100px;
+  font-family: "Poppins", 'sans-serif';
+  font-weight: 700;
 }
 
 .header::after {
@@ -233,7 +236,7 @@ body {
     margin-bottom: 5px;
     border-bottom: 2px solid #d6dde3;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 70px;
     margin: 0 auto;
 }
 
@@ -302,7 +305,7 @@ body {
 .messages {
   width: 1000px;
   text-align: center;
-  margin: 0 auto;
+  margin-top: 80px;
 }
 
 .messages h1 {
