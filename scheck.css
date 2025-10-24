@@ -346,7 +346,7 @@ input, textarea {
 
 .footer-2 > a > img {
   display: block;
-  max-width: 90%;  
+  max-width: 100%;  
   height: auto;
   margin: 0 auto; 
   object-fit: contain; 
