@@ -336,6 +336,7 @@ input, textarea {
     flex-direction: column;
     padding: 70px 10px 10px;
     background-color: #0b1014;
+    width: 100%;
 }
 
 .footer-2__logo {
