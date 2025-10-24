@@ -9,10 +9,8 @@ body {
 }
 
 .logo {
-  color: white;
-  font-size: 35px;
-  padding: 5px 20px;
   float: left;
+  height: 46px;
 }
 
 .header {
