@@ -11,6 +11,7 @@ body {
 .logo {
   float: left;
   height: 46px;
+  width: auto;
 }
 
 .header {
