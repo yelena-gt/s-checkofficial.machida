@@ -223,6 +223,7 @@ body {
     margin-bottom: 5px;
     border-bottom: 2px solid #d6dde3;
     text-align: center;
+    display: inline-block;
 }
 
 .qa-6 summary {
@@ -242,6 +243,7 @@ body {
     left: 1em;
     font-weight: 600;
     font-size: 1.3em;
+    text-align: left;
 }
 
 .qa-6 summary::before {
@@ -272,6 +274,7 @@ body {
     padding: .3em 3em 1.5em;
     color: white;
     transition: transform .5s, opacity .5s;
+    text-align: left;
 }
 
 .qa-6[open] p {
