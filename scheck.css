@@ -11,8 +11,9 @@ body {
 .logo img{
   float: left;
   height: 50px;
-  margin-top: auto;
+  margin: 0 auto;
   margin-bottom: auto;
+  
 }
 
 .header {
@@ -29,7 +30,7 @@ body {
   display: flex;       /* gapを効かせるため親をflexに */
   gap: 16px;
   align-items: center;
-  font-size: 45px;
+  font-size: 35px;
 }
 
 
