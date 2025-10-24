@@ -218,6 +218,11 @@ body {
   right: 0;
 }
 
+.QA h1 {
+  text-align: center;
+  margin-top: 200px;
+}
+
 .qa-6 {
     max-width: 900px;
     margin-bottom: 5px;
