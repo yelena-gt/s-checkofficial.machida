@@ -26,6 +26,7 @@ body {
   display: flex;       /* gapを効かせるため親をflexに */
   gap: 16px;
   align-items: center;
+  font-size: 45px;
 }
 
 
