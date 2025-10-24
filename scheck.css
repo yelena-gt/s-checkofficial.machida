@@ -344,6 +344,15 @@ input, textarea {
     height: 30px;
 }
 
+.footer-2 > a > img {
+  display: block;
+  max-width: 90%;  
+  height: auto;
+  margin: 0 auto; 
+  object-fit: contain; 
+}
+
+
 .footer-2__list {
     display: flex;
     justify-content: center;
