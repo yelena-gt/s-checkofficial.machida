@@ -60,6 +60,7 @@ body {
     position: relative;
     padding: 0 2.5em;
     color: #ffffff;
+    font-family: initial;
 }
 
 .title{
@@ -78,6 +79,7 @@ body {
     width: 70px;
     height: 3px;
     background-color: black;
+    color: white;
 }
 
 .title h1::before {
@@ -124,5 +126,9 @@ body {
 
 .box-018::after {
     right: 9px;
+}
+
+.inbox-text p {
+  font-family: initial;
 }
 
