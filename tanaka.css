@@ -2,6 +2,9 @@
 html, body {
   margin: 0;
   padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
 }
 
 body {
@@ -60,7 +63,7 @@ body {
     position: relative;
     padding: 0 2.5em;
     color: #ffffff;
-    font-family: initial;
+    background-color: transparent;
 }
 
 .title{
@@ -70,6 +73,7 @@ body {
   
 }
 
+
 .title h1::before,
 .title h1::after {
     content: '';
@@ -78,8 +82,7 @@ body {
     top: 50%;
     width: 70px;
     height: 3px;
-    background-color: black;
-    color: white;
+    background-color: white;
 }
 
 .title h1::before {
@@ -128,7 +131,4 @@ body {
     right: 9px;
 }
 
-.inbox-text p {
-  font-family: initial;
-}
 
