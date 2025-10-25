@@ -82,7 +82,7 @@ body {
     top: 50%;
     width: 70px;
     height: 3px;
-    background-color: white;
+    background-color: black;
 }
 
 .title h1::before {
