@@ -101,9 +101,28 @@ body {
   margin-top:10px;
 }
 
+.members {
+  position:relative;
+  width: 500px;
+  height: 700px;
+  margin: 0 auto;
+}
+
 .members img {
   width: 500px;
+  position: absolute;
 }
+
+.message {
+  transition: opacity 1.5s ease-in-out; 
+  text-align: center;
+}
+
+.message.appear {
+  opacity: 1;
+  z-index: 1; 
+}
+
 
 .box-018 {
     position: relative;
