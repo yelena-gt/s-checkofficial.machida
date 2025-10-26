@@ -3,6 +3,7 @@ body {
   color: white;
   margin-left: auto;
   margin-right: auto;
+  font-family: "Times New Roman", Times, serif;
 }
 .logo img{
   float: left;
