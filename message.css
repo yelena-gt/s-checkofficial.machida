@@ -1,0 +1,127 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.logo img{
+  float: left;
+  height: 50px;
+  margin: 0 auto;
+  margin-bottom: auto;
+  padding-top: 15px;
+  
+}
+
+.header {
+  background-color: black;
+  height: 60px;
+  padding-bottom: 15px;
+  padding-bottom: 15px;
+   border-bottom: 1px solid #ffffff;
+}
+
+.header-list ul {
+  margin:0; 
+  padding: 0;          /* ← ここ重要（左の40px） */
+  list-style: none;
+  display: flex;       /* gapを効かせるため親をflexに */
+  gap: 16px;
+  align-items: center;
+  font-size: 35px;
+}
+
+
+
+.concept-top {
+  padding-top: 15px;
+  color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: "Poppins", 'sans-serif';
+  font-weight: 700;
+}
+
+.info-top {
+  padding-top: 15px;
+  color: white;
+  padding-right: 100px;
+  font-family: "Poppins", 'sans-serif';
+  font-weight: 700;
+}
+
+.header::after {
+  content: "";
+  display: block;
+  clear: both;   
+}
+
+
+.producer h1 {
+    margin-top: 100px;
+    display: inline-block;
+    position: relative;
+    padding: 0 2.5em;
+    color: #ffffff;
+}
+.producer {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  
+}
+
+.producer h1::before,
+.producer h1::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    width: 70px;
+    height: 3px;
+    background-color: white;
+}
+
+.producer h1::before {
+    left: 0;
+}
+
+.producer h1::after {
+    right: 0;
+}
+.producer figcaption {
+  text-align: center;
+  margin-top:10px;
+  font-size: 25px;
+}
+
+.producer img {
+  width: 500px;
+}
+
+.message {
+  max-width: 810px;
+  margin: 0 auto;
+}
+
+.message p {
+  font-size: 18px;
+  line-height: 2;
+  text-align: left;
+}
+
+
+
+.just {
+  font-size: 35px;
+}
+
+.bold {
+  font-weight: bold;
+}
