@@ -8,6 +8,9 @@ body {
   color: white;
 }
 
+a {
+  color: white;
+}
 .logo img{
   float: left;
   height: 50px;
