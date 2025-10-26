@@ -63,7 +63,9 @@ body {
     padding: 0 2.5em;
     color: #ffffff;
     background-color: transparent;
+    font-family: inherit;
 }
+
 
 .title{
   margin: 0 auto;
@@ -132,4 +134,8 @@ body {
     right: 9px;
 }
 
+.inbox-text p {
+  .header-list {
+  font-family: inherit;
+}
 
