@@ -91,7 +91,7 @@ a:active {
 
 .concept p {
   text-align: center;
-  padding-top; 100px;
+  padding-top; 70px;
   font-size: 25px;
   margin: 15px 120px;
 }
@@ -104,4 +104,8 @@ a:active {
 
 .jfc {
   font-size: 30px;
+}
+
+.concept {
+  padding-bottom: 40px;
 }
