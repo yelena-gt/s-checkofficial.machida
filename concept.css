@@ -86,19 +86,17 @@ a:active {
   font-size: 70px;
   font-weight: 800;
   text-align: center;
-  padding-top: 150px;
+  padding-top: 130px;
 }
 
 .concept p {
   text-align: center;
-  padding-top; 70px;
   font-size: 25px;
   margin: 15px 120px;
 }
 
 .one {
   font-size: 50px;
-  line-height: 10;
   
 }
 
@@ -107,5 +105,5 @@ a:active {
 }
 
 .concept {
-  padding-bottom: 40px;
+  padding-bottom: 100px;
 }
