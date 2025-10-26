@@ -111,6 +111,7 @@ body {
     border-top: 1px solid #ffffff;
     border-bottom: 1px solid #ffffff;
     color: white;
+    background-color: black;
 }
 
 .box-018::before,
