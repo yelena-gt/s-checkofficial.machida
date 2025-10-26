@@ -9,6 +9,28 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #ccc;  
+}
+
+
+a:active {
+  color: white;
+}
+
 .logo img{
   float: left;
   height: 50px;
