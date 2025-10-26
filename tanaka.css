@@ -119,7 +119,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
     height: calc(100% + 20px);
-    background-color: transparent;
+    background-color: #ffffff;
     content: '';
 }
 
