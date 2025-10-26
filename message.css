@@ -113,6 +113,7 @@ body {
 .message p {
   font-size: 18px;
   text-align: left;
+  line-height: 2;
 }
 
 
