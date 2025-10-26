@@ -104,7 +104,27 @@ a:active {
   font-size: 30px;
   padding-bottom: 200px;
 }
+.footer-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 70px 10px 10px;
+    background-color: #0b1014;
+    width: 100%;
+}
 
+.footer-2__logo {
+    width: 130px;
+    height: 30px;
+}
+
+.footer-2 > a > img {
+  display: block;
+  max-width: 100%;  
+  height: auto;
+  margin: 0 auto; 
+  object-fit: contain; 
+}
 
 .footer-2__list {
     display: flex;
