@@ -583,11 +583,11 @@ input, textarea {
     grid-template-columns: 1fr; /* 1列 */
     gap: 16px;
     padding: 0 16px;
+    width: 150px;
+    item-align: center;
   }
 
-  .members img {
-    width: 120px;
-  }
+ 
   .members {
     width: 100%;
   }
