@@ -652,13 +652,18 @@ input, textarea {
     margin: 16px auto;
     border-bottom-width: 1px;
   }
+
+  .QA h1 {
+    font-size: 20px;
+  }
+    
   .qa-6 summary {
     padding: 0.8em 1em 0.8em 2.6em;
-    font-size: 16px;
+    font-size: 13px;
   }
   .qa-6 p {
     padding: 0.3em 1em 1em 2.6em;
-    font-size: 15px;
+    font-size: 13px;
   }
 
   /* メッセージ & フォーム */
@@ -666,10 +671,11 @@ input, textarea {
     width: 100%;
     padding: 0 16px;
     margin-top: 40px;
+    justify-content: center;
   }
   .messages h1 {
     margin-top: 24px;
-    font-size: 22px;
+    font-size: 20px;
   }
   input, textarea {
     width: 92%;
