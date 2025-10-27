@@ -669,8 +669,7 @@ input, textarea {
   /* メッセージ & フォーム */
   .messages {
     width: 100%;
-    margin: 0 auto;
-    margin-top: 20px;
+    margin: 20 auto;
     justify-content: center;
   }
   .messages h1 {
