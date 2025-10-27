@@ -595,7 +595,8 @@ input, textarea {
 
  
   .members {
-    width: 100%;
+    width: 30vw;
+    width: 30dvw;
   }
   .members figcaption {
     margin-top: 6px;
