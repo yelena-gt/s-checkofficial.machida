@@ -525,9 +525,12 @@ input, textarea {
     max-width: 100%;
     overflow-x: hidden;
   }
+
+  body {
+    padding-top: calc(var(--header-h) + 8px);
+  }
     .header {
     height: auto;
-    width: 100%;
     padding: 8px 12px 12px;
     position: fixed;     /* スクロールしても固定 */
     top: 0;  
@@ -686,8 +689,6 @@ input, textarea {
   }
   .footer-2__copyright {
     font-size: .75em;
-  }
-}
   }
 
   
