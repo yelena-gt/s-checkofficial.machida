@@ -578,12 +578,18 @@ input, textarea {
   .members-list { text-align: center; 
               }
   .members-list h1 {
+    position: relative;
+    display: inline-block;
     font-size: 22px;
     padding: 0 1.5em;
     margin-top: 0;
   }
   .members-list h1::before,
   .members-list h1::after {
+    content: "";
+    position: absolute;
+    top: 50%;                    
+    transform: translateY(-50%); 
     width: 48px;
     height: 2px;
   }
@@ -616,12 +622,18 @@ input, textarea {
   /* コンテンツ見出し（con-info） */
   .con-info { margin: 16px 0; }
   .con-info h1 {
-    margin-top: 32px;
+    position: relative;
+    display: inline-block;
     font-size: 22px;
     padding: 0 1.5em;
+    margin-top: 0;
   }
   .con-info h1::before,
   .con-info h1::after {
+    content: "";
+    position: absolute;
+    top: 50%;                    
+    transform: translateY(-50%); 
     width: 48px;
     height: 2px;
   }
