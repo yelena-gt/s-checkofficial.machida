@@ -521,10 +521,14 @@ input, textarea {
 }
 /*# sourceMappingURL=scheck.css.map */
 @media screen and (max-width: 480px) {
+    :root { --header-h: 72px; }
     html, body {
     max-width: 100%;
     overflow-x: hidden;
   }
+    body {
+      padding-top: var(--header-h);
+    }
     .header {
     height: auto;
     width: 100%;
@@ -556,9 +560,11 @@ input, textarea {
   }
 
   /* スライドショー：高さを画面依存に、はみ出し防止 */
-  .gallery { height: 70vh; }
+  .gallery { height: 70vh; 
+             height: 70dvh;}
   .slideshow-slide {
-    height: 70vh;      /* 画面半分くらいの高さ */
+    height: 70vh;  /* フォールバック */
+    height: 70dvh;/* 画面半分くらいの高さ */
     min-height: 240px; /* 端末小さすぎ対策 */
   }
   .slideshow-slide li img {
