@@ -587,6 +587,14 @@ input, textarea {
     width: 48px;
     height: 2px;
   }
+
+  .members-list h1::before {
+  left: 0;
+}
+
+.members-list h1::after {
+  right: 0;
+}
   .members-grid {
     display: grid;
     grid-template-columns: 1fr; /* 1列 */
@@ -617,6 +625,14 @@ input, textarea {
     width: 48px;
     height: 2px;
   }
+
+  .con-info h1::before {
+  left: 0;
+}
+
+.con-info h1::after {
+  right: 0;
+}
 
   /* アイコンとボタン */
   .icon {
