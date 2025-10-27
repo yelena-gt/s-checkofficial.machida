@@ -556,7 +556,7 @@ input, textarea {
   }
 
   /* スライドショー：高さを画面依存に、はみ出し防止 */
-  .gallery { height: auto; }
+  .gallery { height: 50vh; }
   .slideshow-slide {
     height: 50vh;      /* 画面半分くらいの高さ */
     min-height: 240px; /* 端末小さすぎ対策 */
