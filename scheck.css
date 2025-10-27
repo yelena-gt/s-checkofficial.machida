@@ -527,6 +527,7 @@ input, textarea {
 
   .header {
     height: 40vh;
+    width: 100vh;
   }
 
 }
