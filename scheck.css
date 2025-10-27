@@ -527,6 +527,7 @@ input, textarea {
   }
     .header {
     height: auto;
+    width: auto;
     padding: 8px 12px 12px;
     position: fixed;     /* スクロールしても固定 */
     top: 0;  
