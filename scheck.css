@@ -528,6 +528,9 @@ input, textarea {
     .header {
     height: auto;
     padding: 8px 12px 12px;
+    position: fixed;     /* スクロールしても固定 */
+    top: 0;  
+    z-index: 1000;
     
   }
   .logo img {
@@ -580,6 +583,10 @@ input, textarea {
     grid-template-columns: 1fr; /* 1列 */
     gap: 16px;
     padding: 0 16px;
+  }
+
+  .members img {
+    width: 200px;
   }
   .members {
     width: 100%;
