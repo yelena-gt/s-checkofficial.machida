@@ -584,7 +584,7 @@ input, textarea {
     gap: 16px;
     padding: 0 16px;
     width: 150px;
-    item-align: center;
+    align-items: center;
   }
 
  
