@@ -568,7 +568,7 @@ input, textarea {
 
   /* Members セクション */
   .members-list { text-align: center; 
-                width: 150px;}
+              }
   .members-list h1 {
     margin-top: 40px;
     font-size: 22px;
