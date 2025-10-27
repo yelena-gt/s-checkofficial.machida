@@ -577,7 +577,7 @@ input, textarea {
   .members-list { text-align: center; 
               }
   .members-list h1 {
-    margin-top: 40px;
+    margin-top: 20px;
     font-size: 22px;
     padding: 0 1.5em;
   }
@@ -591,12 +591,13 @@ input, textarea {
     grid-template-columns: 1fr; /* 1列 */
     gap: 16px;
     padding: 0 16px;
+    align-items: center;
   }
 
  
   .members {
-    width: 50vw;
-    width: 50dvw;
+    width: 60vw;
+    width: 60dvw;
   }
   .members figcaption {
     margin-top: 6px;
