@@ -567,7 +567,8 @@ input, textarea {
   }
 
   /* Members セクション */
-  .members-list { text-align: center; }
+  .members-list { text-align: center; 
+                width: 150px;}
   .members-list h1 {
     margin-top: 40px;
     font-size: 22px;
@@ -583,8 +584,6 @@ input, textarea {
     grid-template-columns: 1fr; /* 1列 */
     gap: 16px;
     padding: 0 16px;
-    width: 150px;
-    align-items: center;
   }
 
  
