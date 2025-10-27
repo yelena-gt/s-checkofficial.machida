@@ -525,4 +525,8 @@ input, textarea {
     max-width: 100vw;
   }
 
+  .header {
+    height: 30vh;
+  }
+
 }
