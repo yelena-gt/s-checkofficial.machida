@@ -558,12 +558,12 @@ input, textarea {
   /* スライドショー：高さを画面依存に、はみ出し防止 */
   .gallery { height: 70vh; }
   .slideshow-slide {
-    height: 50vh;      /* 画面半分くらいの高さ */
+    height: 70vh;      /* 画面半分くらいの高さ */
     min-height: 240px; /* 端末小さすぎ対策 */
   }
   .slideshow-slide li img {
     width: 100%;
-    height: 70vh;
+    height: 100%;
     object-fit: cover;
   }
 
