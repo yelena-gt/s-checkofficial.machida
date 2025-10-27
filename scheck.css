@@ -583,6 +583,7 @@ input, textarea {
     font-size: 22px;
     padding: 0 1.5em;
     margin-top: 0;
+    gap: 0.7em;
   }
   .members-list h1::before,
   .members-list h1::after {
@@ -627,6 +628,7 @@ input, textarea {
     font-size: 22px;
     padding: 0 1.5em;
     margin-top: 0;
+    gap: 0.7em;
   }
   .con-info h1::before,
   .con-info h1::after {
