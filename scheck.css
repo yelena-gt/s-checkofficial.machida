@@ -670,6 +670,7 @@ input, textarea {
   .messages {
     width: 100%;
     margin: 0 auto;
+    margin-top: 20px;
     justify-content: center;
   }
   .messages h1 {
