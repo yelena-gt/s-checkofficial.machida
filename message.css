@@ -186,3 +186,13 @@ a:active {
     font-size: 14px;
     line-height: 1.4;
   }
+
+.producer h1 {
+    margin-top: 100px;
+    display: inline-block;
+    position: relative;
+    padding: 0 2.5em;
+    color: #ffffff;
+    font-size: 25px:
+}
+
