@@ -196,7 +196,8 @@ a:active {
 }
 
  .concept {
-   width: 400px;
+   width: 80vw;
+   width: 80dvw;
  }
   
 .concept p {
