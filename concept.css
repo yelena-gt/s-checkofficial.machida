@@ -188,3 +188,21 @@ a:active {
     line-height: 1.4;
   }
 
+  .title h1 {
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 130px;
+}
+
+.concept p {
+  text-align: center;
+  font-size: 14px;
+  margin: 15px 120px;
+}
+
+.one {
+  font-size: 25px;
+  line-height: 10;
+}
+
