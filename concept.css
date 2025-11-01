@@ -195,6 +195,11 @@ a:active {
   padding-top: 130px;
 }
 
+  .concept {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  
 .concept p {
   text-align: center;
   font-size: 16px;
@@ -204,5 +209,13 @@ a:active {
 
 .one {
   font-size: 25px;
+  line-height: 150%;
 }
 
+  .jfc {
+    font-size: 20px;
+  }
+
+  
+
+  
