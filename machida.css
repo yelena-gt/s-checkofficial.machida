@@ -145,3 +145,42 @@ a:active {
 .bold {
   font-weight: bold;
 }
+
+@media screen and (max-width: 480px) {
+    :root { --header-h: 72px; }
+    html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+    body {
+      padding-top: var(--header-h);
+    }
+    .header {
+    height: auto;
+    width: 100%;
+    padding: 8px 12px 12px;
+    position: fixed;     /* スクロールしても固定 */
+    top: 0;  
+    z-index: 1000;
+    
+  }
+  .logo img {
+    height: 30px;
+    padding-top: 0;
+    margin: 0;
+  }
+  .header-list ul {
+    gap: 8px;
+    font-size: 13px;
+    flex-wrap: wrap;
+  }
+
+  /* コンセプト/インフォ見出し余白と文字サイズ */
+  .concept-top,
+  .info-top {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 1.4;
+  }
