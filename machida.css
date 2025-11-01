@@ -184,3 +184,29 @@ a:active {
     font-size: 14px;
     line-height: 1.4;
   }
+
+  .producer h1 {
+    margin-top: 80px;
+    display: inline-block;
+    position: relative;
+    padding: 0 2.5em;
+    color: #ffffff;
+    font-size: 30px;
+}
+.producer {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  margin-left: 4dvw;
+  margin-right: 4dvw;
+  
+}
+
+.producer img {
+  width: 300px;
+}
+
+  
