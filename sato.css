@@ -204,3 +204,18 @@ a:active {
     line-height: 1.4;
   }
 
+   .members {
+  position:relative;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.members img {
+  width: 350px;
+  position: absolute;
+}
+
+.message {
+  text-align: center;
+}
+
