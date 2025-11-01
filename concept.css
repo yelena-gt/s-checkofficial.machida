@@ -195,7 +195,9 @@ a:active {
   padding-top: 130px;
 }
 
- 
+ .concept {
+   width: 400px;
+ }
   
 .concept p {
   text-align: center;
