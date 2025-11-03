@@ -191,7 +191,7 @@ a:active {
     position: relative;
     padding: 0 2.5em;
     color: #ffffff;
-    font-size: 25px;
+    font-size: 18px;
     text-align: center;
 }
 .producer {
@@ -204,6 +204,7 @@ a:active {
   margin-left: 4dvw;
   margin-right: 4dvw;
   
+  
 }
 
 .producer img {
@@ -212,5 +213,5 @@ a:active {
 }
 
 .live {
-  font-size: 13px;
+  font-size: 12px;
 }
