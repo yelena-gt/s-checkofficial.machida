@@ -193,15 +193,39 @@ a:active {
     position: relative;
     padding: 0 2.5em;
     color: #ffffff;
-    font-size: 28px:
+    font-size: 20px:
 }
 
 .producer {
+  margin: 0 auto;
   text-align: center;
+  width: 100%;
+  background-color: black;
+  
+}
+
+.producer h1::before,
+.producer h1::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    width: 10px;
+    height: 3px;
+    background-color: white;
+}
+
+.producer h1::before {
+    left: 0;
+}
+
+.producer h1::after {
+    right: 0;
 }
 
 .producer img {
   width: 320px;
+  text-align: center;
 }
 
 .producer figcaption {
