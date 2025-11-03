@@ -208,7 +208,11 @@ a:active {
 .producer figcaption {
   font-size: 18px;
 }
-.producer p {
+
+.message {
+  padding-inline: 2em;
+}
+.message p {
   margin: 2em 0;
   font-size: 14px;
 }
