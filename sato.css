@@ -205,17 +205,46 @@ a:active {
   }
 
    .members {
-  position:relative;
-  width: 350px;
+  width: 300px;
   margin: 0 auto;
 }
 
 .members img {
-  width: 350px;
-  position: absolute;
+  width: 300px;
+  text-align: center;
 }
 
 .message {
   text-align: center;
+  font-size: 12px;
+}
+
+  .box-018 {
+    position: relative;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 1em calc(1.5em + 7px);
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    color: white;
+}
+
+.box-018::before,
+.box-018::after {
+    position: absolute;
+    width: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: calc(100% + 20px);
+    background-color: #ffffff;
+    content: '';
+}
+
+.box-018::before {
+    left: 7px;
+}
+
+.box-018::after {
+    right: 7px;
 }
 
