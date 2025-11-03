@@ -189,7 +189,7 @@ a:active {
     margin-top: 80px;
     display: inline-block;
     position: relative;
-    padding: 0 2.5em;
+    padding: 0;
     color: #ffffff;
     font-size: 18px;
     text-align: center;
@@ -225,10 +225,12 @@ a:active {
 .producer h1::after {
     margin-left: 2em;
 }
-.producer img {
-  width: 300px;
-  margin: 0 auto;
-  text-align: center;
+
+.producer img{
+  display:block;
+  margin-inline:auto;
+  max-width:100%;
+  height:auto;
 }
 
 .live {
