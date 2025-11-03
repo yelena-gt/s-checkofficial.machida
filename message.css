@@ -193,11 +193,12 @@ a:active {
     position: relative;
     padding: 0 2.5em;
     color: #ffffff;
-    font-size: 25px:
+    font-size: 20px:
 }
 
 .producer {
   text-align: center;
+  padding-inline: 8vw
 }
 
 .producer img {
@@ -205,10 +206,9 @@ a:active {
 }
 
 .producer figcaption {
-  font-size: 20px;
+  font-size: 18px;
 }
 .producer p {
   margin: 2em 0;
   font-size: 14px;
-  padding-inline: 6vw;
 }
