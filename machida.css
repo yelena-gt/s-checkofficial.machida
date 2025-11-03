@@ -205,20 +205,7 @@ a:active {
   margin-right: 4dvw;
   
 }
-.producer h1 {
-    margin-top: 100px;
-    display: inline-block;
-    position: relative;
-    padding: 0 2.5em;
-    color: #ffffff;
-}
-.producer {
-  margin: 0 auto;
-  text-align: center;
-  width: 100%;
-  background-color: black;
-  
-}
+
 
 .producer h1::before,
 .producer h1::after {
@@ -226,7 +213,7 @@ a:active {
     display: inline-block;
     position: absolute;
     top: 50%;
-    width: 20px;
+    width: 5px;
     height: 3px;
     background-color: white;
 }
@@ -246,7 +233,5 @@ a:active {
 
 .live {
   padding-inline: 6vw;
-}
-.live {
   font-size: 12px;
 }
