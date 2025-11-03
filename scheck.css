@@ -593,6 +593,7 @@ input, textarea {
     transform: translateY(-50%); 
     width: 48px;
     height: 2px;
+    padding: 0 0.5em;
   }
 
   .members-list h1::before {
@@ -638,6 +639,7 @@ input, textarea {
     transform: translateY(-50%); 
     width: 48px;
     height: 2px;
+    padding: 0 0.5em;
   }
 
   .con-info h1::before {
