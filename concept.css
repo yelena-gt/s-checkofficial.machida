@@ -197,6 +197,7 @@ a:active {
 
  .concept {
    width: 100vw;
+   width: 100dvw;
    max-width: none;
    margin: 0;
  }
