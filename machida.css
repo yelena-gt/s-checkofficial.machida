@@ -213,24 +213,18 @@ a:active {
     display: inline-block;
     position: absolute;
     top: 50%;
-    width: 5px;
-    height: 3px;
+    width: 0px;
+    height: 0px;
     background-color: white;
 }
 
-.producer h1::before {
-    margin-right: 2em;
-}
-
-.producer h1::after {
-    margin-left: 2em;
-}
 
 .producer img{
   display:block;
   margin-inline:auto;
   max-width:100%;
   height:auto;
+  text-align: center;
 }
 
 .live {
