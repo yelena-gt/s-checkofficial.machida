@@ -220,19 +220,75 @@ a:active {
     line-height: 1.4;
   }
 
-  .members {
-  position:relative;
-  width: 350px;
+.title h1 {
+    margin-top: 100px;
+    display: inline-block;
+    position: relative;
+    padding: 0 2.5em;
+    color: #ffffff;
+  font-size: 20px;
+}
+
+.title{
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  
+}
+
+.title h1::before,
+.title h1::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 3px;
+    background-color: #fafdff;
+}
+
+   .members {
+  width: 300px;
+  height: 500px;
   margin: 0 auto;
 }
 
 .members img {
-  width: 350px;
-  position: absolute;
+  width: 300px;
+  text-align: center;
+  display: block;
 }
 
 .message {
   text-align: center;
+  font-size: 12px;
 }
 
-  
+  .box-018 {
+    position: relative;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 1em calc(1.5em + 7px);
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    color: white;
+}
+
+.box-018::before,
+.box-018::after {
+    position: absolute;
+    width: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: calc(100% + 20px);
+    background-color: #ffffff;
+    content: '';
+}
+
+.box-018::before {
+    left: 7px;
+}
+
+.box-018::after {
+    right: 7px;
+}
