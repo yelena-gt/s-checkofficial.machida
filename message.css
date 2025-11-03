@@ -132,6 +132,12 @@ a:active {
   margin: 0 auto;
 }
 
+.brpc {
+    display: block;
+}
+.brsp {
+  display: none;
+}
 .message p {
   font-size: 18px;
   text-align: center;
