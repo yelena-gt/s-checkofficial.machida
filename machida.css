@@ -205,7 +205,39 @@ a:active {
   margin-right: 4dvw;
   
 }
+.producer h1 {
+    margin-top: 100px;
+    display: inline-block;
+    position: relative;
+    padding: 0 2.5em;
+    color: #ffffff;
+}
+.producer {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  
+}
 
+.producer h1::before,
+.producer h1::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    width: 20px;
+    height: 3px;
+    background-color: white;
+}
+
+.producer h1::before {
+    margin-right: 2em;
+}
+
+.producer h1::after {
+    margin-left: 2em;
+}
 .producer img {
   width: 300px;
   margin: 0 auto;
