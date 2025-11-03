@@ -209,7 +209,7 @@ a:active {
 }
 
 .message {
-  padding-inline: 2em;
+  padding-inline: 4vw;
 }
 .message p {
   margin: 2em 0;
