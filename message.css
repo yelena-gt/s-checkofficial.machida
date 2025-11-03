@@ -203,3 +203,8 @@ a:active {
 .producer img {
   width: 320px;
 }
+
+.producer p {
+  margin: 2em 0;
+  font-size: 14px;
+}
