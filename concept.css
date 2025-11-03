@@ -195,18 +195,18 @@ a:active {
   padding-top: 130px;
 }
 
- .concept {
-   width: 100vw;
-   width: 100dvw;
-   max-width: none;
-   margin: 0;
- }
+
+ .concept { 
+    box-sizing: border-box;
+    width: 100%;
+    padding-inline: 4vw;   /* 画面幅に対する薄い左右余白 */
+    margin: 0 auto;
+  }
   
 .concept p {
   text-align: justify;
   font-size: 16px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin: 1em 0;
   padding: 0 450px;
 }
 
