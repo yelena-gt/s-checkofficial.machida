@@ -203,8 +203,6 @@ a:active {
   margin-right: 4vw;
   margin-left: 4dvw;
   margin-right: 4dvw;
-  padding-inline: 6vw;
-  
   
 }
 
@@ -214,6 +212,9 @@ a:active {
   text-align: center;
 }
 
+.live {
+  padding-inline: 6vw;
+}
 .live {
   font-size: 12px;
 }
