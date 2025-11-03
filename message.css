@@ -206,7 +206,7 @@ a:active {
 }
 
 .producer figcaption {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .message {
@@ -214,5 +214,5 @@ a:active {
 }
 .message p {
   margin: 2em 0;
-  font-size: 14px;
+  font-size: 18px;
 }
