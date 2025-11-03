@@ -596,11 +596,11 @@ input, textarea {
   }
 
   .members-list h1::before {
-  margin-right: 2em;
+  margin-right: 6em;
 }
 
 .members-list h1::after {
-  margin-left: 2em;
+  margin-left: 6em;
 }
   .members-grid {
     display: grid;
@@ -641,11 +641,11 @@ input, textarea {
   }
 
   .con-info h1::before {
-  margin-right: 2em;
+  margin-right: 6em;
 }
 
 .con-info h1::after {
-  margin-left: 2em;
+  margin-left: 6em;
 }
 
   /* アイコンとボタン */
