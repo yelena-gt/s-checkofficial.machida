@@ -149,15 +149,22 @@
 <div class="messages">
   
   <h1>応援メッセージ</h1>
-  
-  <p>ニックネーム</p>
-  <input>
-  <p>メンバーへのメッセージ</p>
-  <textarea></textarea>
- 
-  <p>皆さんからのメッセージはメンバーの励みになります。次のライブをお楽しみに！</p>
-   <input class="submit-form" type="submit" value="送信">
-  
+
+   <form
+  action="https://formspree.io/f/xdkpjqbk"
+  method="POST"
+>
+    <label>ニックネーム</label><br>
+    <input type="text" name="nickname" required><br>
+
+    <label>メンバーへのメッセージ</label><br>
+    <textarea name="message" rows="5" required></textarea><br>
+
+    <p>皆さんからのメッセージはメンバーの励みになります。次のライブをお楽しみに！</p>
+    <button class="submit-form" type="submit">送信</button>
+  </form>
+</div>
+
   
   
 </div>
