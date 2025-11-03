@@ -199,14 +199,14 @@ a:active {
  .concept { 
     box-sizing: border-box;
     width: 100%;
-    padding-inline: 6vw;   /* 画面幅に対する薄い左右余白 */
+    padding-inline: 4vw;   /* 画面幅に対する薄い左右余白 */
     margin: 0 auto;
   }
   
 .concept p {
   text-align: center;
-  font-size: 16px;
-  margin: 2em 0;
+  font-size: 14px;
+  margin: 4em 0;
   padding: 0;
 }
 
