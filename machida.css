@@ -191,7 +191,7 @@ a:active {
     position: relative;
     padding: 0;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
 }
 .producer {
@@ -225,5 +225,5 @@ a:active {
 
 .live {
   padding-inline: 6vw;
-  font-size: 12px;
+  font-size: 10px;
 }
