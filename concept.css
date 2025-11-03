@@ -89,6 +89,12 @@ a:active {
   padding-top: 130px;
 }
 
+.brpc {
+    display: block;
+}
+.brsp {
+  display: none;
+}
 .concept p {
   text-align: center;
   font-size: 25px;
@@ -195,6 +201,7 @@ a:active {
   padding-top: 130px;
 }
 
+  
 
  .concept { 
     box-sizing: border-box;
@@ -202,6 +209,13 @@ a:active {
     padding-inline: 4vw;   /* 画面幅に対する薄い左右余白 */
     margin: 0 auto;
   }
+
+   .brsp {
+    display: block;
+  }
+  .brpc {
+  display: none;
+}
   
 .concept p {
   text-align: center;
