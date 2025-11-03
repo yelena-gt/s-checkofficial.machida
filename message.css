@@ -234,6 +234,13 @@ a:active {
   text-align: center;
 }
 
+ .brsp {
+    display: block;
+  }
+  .brpc {
+  display: none;
+}
+
 .producer figcaption {
   font-size: 20px;
 }
