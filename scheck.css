@@ -591,16 +591,16 @@ input, textarea {
     position: absolute;
     top: 50%;                    
     transform: translateY(-50%); 
-    width: 48px;
+    width: 10px;
     height: 2px;
   }
 
   .members-list h1::before {
-  margin-right: 10em;
+  margin-right: 2em;
 }
 
 .members-list h1::after {
-  margin-left: 10em;
+  margin-left: 2em;
 }
   .members-grid {
     display: grid;
