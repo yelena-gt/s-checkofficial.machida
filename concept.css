@@ -204,7 +204,7 @@ a:active {
   }
   
 .concept p {
-  text-align: justify;
+  text-align: center;
   font-size: 16px;
   margin: 1em 0;
   padding: 0;
@@ -213,6 +213,7 @@ a:active {
 .one {
   font-size: 25px;
   line-height: 150%;
+  margin-top: 100px;
 }
 
   .jfc {
